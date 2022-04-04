@@ -1,39 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+import React from 'react'
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-
-<body>
-
-    <header class="header">
-        <h1>Our Logo</h1>
-
-        <nav class="nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portifolio</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Welcome to Our Site</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab eum est molestiae explicabo impedit exercitationem accusamus deleniti in ipsa perspiciatis.</p>
-            <a href="#" class="btn">Learn More</a>
-        </div>
-    </section>
-
+function Features() {
+  return (
     <main class="features">
         <section class="features-inner">
             <article class="featured-item">
@@ -83,8 +51,7 @@
         </section>
     </main>
 
+  )
+}
 
-
-</body>
-
-</html>
+export default Features
